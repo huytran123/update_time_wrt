@@ -20,7 +20,7 @@ Nhập lệnh bên dưới vào LuCI -> System -> Startup -> Local Startup:
 1. Ví dụ dùng mạng Viettel: /usr/bin/time_open_wrt m.tv360.vn
 
 Nhập lệnh bên dưới vào LuCI -> System -> Scheduled Tasks để auto restart VPN và cập nhật giờ đc lặp lại trong 1 giờ:
-1. Ví dụ dùng mạng Viettel: 0 * * * * /usr/bin/time_open_wrt m.tv360.vn
+1. Ví dụ dùng mạng Viettel: 0 * * * * /usr/bin/viet m.tv360.vn cron
 
 Nhập lệnh bên dưới vào LuCI -> System -> Scheduled Tasks để auto restart router lúc 3h sáng:
 1. Ví dụ dùng mạng Viettel: 0 3 * * *  /bin/sh -c "reboot"
